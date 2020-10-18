@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Latest compiled and minified BOOTSTRAP CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+     <!-- Local CSS -->
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" href="style.css">    
+     <!-- Font-awesome 5 cdn -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Challenge_17</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-md-2 logoBox ">
+                <img src="logo.png" class="logo">
+            </div>
+            <div class="col-md-8 nav">
+                <ul class="menu">
+                    <li class="listItem">home</li>
+                    <li class="listItem">bikes</li>
+                    <li class="listItem">gear</li>
+                    <li class="listItem">parts</li>
+                    <li class="listItem">tires</li>
+                    <li class="listItem">service-info</li>
+                    <li class="listItem">catalogues</li>
+                    <li class="listItem">contact</li>
+                </ul>
+            </div>
+            <div class="col-md-2 search">
+                <i class="fas fa-shopping-bag listItem1 pull-right"></i>
+                <i class="fas fa-search listItem1 pull-right"></i>
+            </div>
+        </div>
+        <div class="row bikes">
+            <span class="bikess">Bikes</span>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="part1">
+                    <div class="h4">Filter by:</div>
+                    <div>
+                        <div class="active pull-left menuItem menuItem1 showall" filterBy="" filterValue="">Show all</div>
+                        <div class="active1 badge badge-secondary pull-right"></div>
+                    </div>
+                </div>
+                <div class="part2">
+                    <div class="h4">Genger</div>
+                    <div>
+                        <div class="pull-left menuItem menuItem1 men" filterBy="GENDER" filterValue="MALE">Men</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div>
+                        <div class="pull-left menuItem menuItem1 women" filterBy="GENDER" filterValue="FEMALE">Women</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                </div>
+                <div class="part3">
+                    <div class="h4">Brand</div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem legrandbikes" filterBy="BRAND" filterValue="LE GRAND BIKES">LE GRAND BIKES</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem kross" filterBy="BRAND" filterValue="KROSS">KROSS</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem explorer" filterBy="BRAND" filterValue="EXPLORER">EXPLORER</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem visitor" filterBy="BRAND" filterValue="VISITOR">VISITOR</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem pony" filterBy="BRAND" filterValue="PONY">PONY</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem force" filterBy="BRAND" filterValue="FORCE">FORCE</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem ebikes" filterBy="BRAND" filterValue="E-BIKES">E-BIKES</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                    <div class="menuItemDiv">
+                        <div class="pull-left menuItem ideal" filterBy="BRAND" filterValue="IDEAL">IDEAL</div>
+                        <div class="badge badge-secondary pull-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 ">
+                <div class="row card"></div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-md-3">
+                    <h3 class="text-center">Social share</h3>
+                <div class="row squareBox">
+                    <div class="col-md-3 square"><i class="fab fa-facebook-f"></i></div>
+                    <div class="col-md-3 square"><i class="fab fa-instagram"></i></div>
+                    <div class="col-md-3 square"><i class="fab fa-twitter"></i></div>
+                    <div class="col-md-3 square"><i class="fab fa-linkedin-in"></i></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <h3>Event Info</h3>
+                <div class="footerMenuItem">Enter Now</div>
+                <div class="footerMenuItem">Enter Info</div>
+                <div class="footerMenuItem">Course Maps</div>
+                <div class="footerMenuItem">Race Pack</div>
+                <div class="footerMenuItem">Results</div>
+                <div class="footerMenuItem">FAQs</div>
+                <div class="footerMenuItem">Am I Regstered?</div>
+            </div>
+            <div class="col-md-3"> 
+                    <h3>Registration</h3>
+                <div class="footerMenuItem">Volnteers</div>
+                <div class="footerMenuItem">Gallery</div>
+                <div class="footerMenuItem">Press</div>
+                <div class="footerMenuItem">Results</div>
+                <div class="footerMenuItem">Privacy policy</div>
+                <div class="footerMenuItem">Service Plus</div>
+                <div class="footerMenuItem">Contacts</div>
+            </div>
+            <div class="col-md-3">
+                    <h3>Schedule</h3>
+                <div class="footerMenuItem">Galerry</div>
+                <div class="footerMenuItem">About</div>
+                <div class="footerMenuItem">Videos</div>
+                <div class="footerMenuItem">Results</div>
+                <div class="footerMenuItem">FAQs</div>
+                <div class="footerMenuItem">Results</div>
+                <div class="footerMenuItem">Volunteers</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

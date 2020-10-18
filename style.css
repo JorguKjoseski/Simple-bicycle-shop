@@ -1,0 +1,186 @@
+body {
+    background-color: #e7e7e7;
+}
+
+.container {
+    background-color: white;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.listItem, .listItem1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.listItem1 {
+    padding: 20px 5px;
+}
+
+.logoBox {
+    height: 100px;
+    width: 150px;
+    margin: 15px;
+}
+.logo{
+    width: 80%;
+}
+.navbar {
+    border-bottom: 1px solid rgb(128, 75, 75);  
+}
+.col-md-8.nav{
+    height: 150px;
+    display: flex;
+      
+}
+.menu,.search {
+    height:100px;
+}
+
+.bikes,
+.part1,
+.part2,
+.part3 {
+    border-bottom: 1px solid rgb(109, 99, 99);
+    display: flex;
+    flex-direction: column;
+}
+
+.bikess {
+    color: black;
+    font-size: 48px;
+}
+
+.thumbnail {
+    width: 18rem;
+    height: 250px;
+    border: 1px solid grey;
+}
+
+.thumbnail .caption {
+    background-color: orange;
+    padding: 0px;
+    height: 35%;
+
+}
+
+.image {
+    margin: 0px;
+    height: 60%;
+}
+
+
+.title {
+    font-weight: bold;
+}
+
+.h4 {
+    font-weight: bold;
+}
+
+.pull-left {
+    margin-bottom: 5px;
+}
+.listItem:hover{
+    background-color:rgb(223, 219, 219);
+    color: orange;
+}
+.listItem1:hover{
+    color: orange;
+}
+
+.col-md-4{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.name{
+    font-weight: bold;
+}
+.square{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+     display: flex;  
+    justify-content: center;
+    align-items: center; 
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.squareBox{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.active{
+    color: orange;
+}
+.active1{
+    background-color: orange;
+}
+.hover-active{
+    color: orange;
+}
+.hover-active1{
+    background-color: orange;
+}
+.footer{
+    margin-top:20px;
+}
+h3{
+    font-weight: bold;
+}
+.showall{
+    padding-right: 182px;
+}
+.men{
+    padding-right: 206px;
+}
+.women{
+    padding-right: 187px;
+}
+.legrandbikes{
+    padding-right: 125px;
+}
+.kross{
+    padding-right: 185px;
+}
+.explorer{
+    padding-right: 165px;
+}
+.visitor{
+    padding-right: 185px;
+}
+.pony{
+    padding-right: 202px;
+}
+.force{
+    padding-right: 192px;
+}
+.ebikes{
+    padding-right: 186px;
+}
+.ideal{
+    padding-right: 194px;
+}
